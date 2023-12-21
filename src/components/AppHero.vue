@@ -1,25 +1,20 @@
 <script>
-import AppHero from  './AppHero.vue'
 export default {
-  components: {
-    AppHero
-  },
   data(){
     return{
-      message: `La mai prima app con vite`
+      img: `vue.svg`
     }
   },
   methods:{
     getImage(path){
         return new URL(path, import.meta.url).href
+    }
   }
-}
 }
 
 </script>
 <template>
   <div>
-    {{ message }}
   </div>
- 
+    <img :src="getImage(`../assets/${img}`)" width="300px">
 </template>
