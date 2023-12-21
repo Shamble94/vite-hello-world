@@ -4,13 +4,6 @@ import AppHero from  './components/AppHero.vue'
 </script>
 
 
-export default {
-  components:{
-    AppTitle
-    AppHero
-  }
-}
-
 <template>
   <div>
     <AppTitle>

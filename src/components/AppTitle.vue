@@ -1,19 +1,14 @@
 <script>
-import AppHero from  './AppHero.vue'
+
 export default {
-  components: {
-    AppHero
-  },
   data(){
     return{
       message: `La mai prima app con vite`
     }
   },
   methods:{
-    getImage(path){
-        return new URL(path, import.meta.url).href
+    
   }
-}
 }
 
 </script>

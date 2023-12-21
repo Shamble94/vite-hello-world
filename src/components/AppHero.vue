@@ -14,7 +14,7 @@ export default {
 
 </script>
 <template>
-  <div>
-  </div>
-    <img :src="getImage(`../assets/${img}`)" width="300px">
+    <div>
+        <img :src="getImage(`../assets/${img}`)" width="300px">
+    </div>
 </template>
